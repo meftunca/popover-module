@@ -28,8 +28,13 @@ Aşağıda popOver için örnek tetikleyici(trigger) yapıyı görebilirsiniz
 > PopOver öğeleri body içinde en alta atanır. Tetikleyicinin görevi Öğeleri oluşturmak,kaldırmak ve gerekli verileri sağlamaktır.
 
 ```html
-<div class="popover-content arrow-top show" data-popover-id="_mkaorjee1" style="transform: translate3d(266.039px, 110.297px, 0px);"><div class="popover-header">popover</div><div class="popover-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div><div class="popover-footer">popover footer</div></div>
-
+<div class="popover-content arrow-top show">
+   <div class="popover-header">popover</div>
+   <div class="popover-body">
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+   </div>
+   <div class="popover-footer">popover footer</div>
+</div>
 ```
 
 #### Eklenecek özellikler
